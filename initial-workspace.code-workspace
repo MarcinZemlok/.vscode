@@ -1,0 +1,78 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.startupEditor": "newUntitledFile",
+		"workbench.colorTheme": "Monokai Dimmed",
+		"C_Cpp.updateChannel": "Insiders",
+		"liveServer.settings.donotVerifyTags": true,
+		"files.autoSave": "onFocusChange",
+		"editor.formatOnSave": true,
+		"scss.validate": true,
+		"editor.wordWrap": "on",
+		"extensions.ignoreRecommendations": false,
+		"window.zoomLevel": 0,
+		"html.format.endWithNewline": true,
+		"html.format.indentInnerHtml": true,
+		"html.format.maxPreserveNewLines": 1,
+		"emmet.showSuggestionsAsSnippets": true,
+		"emmet.triggerExpansionOnTab": true,
+		"liveServer.settings.donotShowInfoMsg": true,
+		"terminal.integrated.rendererType": "canvas",
+		"psi-header.config": {
+			"forceToTop": true,
+			"author": "Marcin Żemlok",
+			"authorEmail": "marcinzemlok@gmail.com"
+		},
+		"psi-header.lang-config": [
+			{
+				"language": "*",
+				"begin": "/******************************************************************************/",
+				"end": "/******************************************************************************/\n",
+				"prefix": "/* ",
+				"suffix": "*/",
+				"lineLength": 80
+			},
+			{
+				"language": "html",
+				"begin": "<!-----------------------------------------------------------------------------/",
+				"end": "/------------------------------------------------------------------------------>\n",
+				"prefix": "| ",
+				"suffix": " |",
+				"lineLength": 80
+			}
+		],
+		"psi-header.templates": [
+			{
+				"language": "*",
+				"template": [
+					"File:        <<filename>>",
+					"Create Date: <<filecreated('DD/MM/YYYY')>>",
+					"Version:     XXX",
+					"",
+					"Author:      <<author>>",
+					"E-mail:      <<authoremail>>",
+					"",
+					"HISTORY:",
+					"DATE\t\t\t|AUTHOR\t\t\t\t|COMMENT"
+				],
+				"changeLogCaption": "HISTORY:",
+				"changeLogEntryTemplate": [
+					"<<dateformat('DD/MM/YYYY')>>\t|<<author>>\t\t|XXX"
+				],
+				"changeLogHeaderLineCount": 1
+			}
+		],
+		"files.trimTrailingWhitespace": true
+	},
+	"extensions": {
+		"recommendations": [
+			"psioniq.psi-header",
+			"ms-python.python",
+			"ms-vscode.cpptools"
+		]
+	}
+}
