@@ -77,5 +77,35 @@
 		"prefix": "ejs:var",
 		"body": "<%= $0 %>",
 		"description": "EJS variation tag snippet"
+	},
+	"HEADER 1 COMMENT JS": {
+		"scope": "javascript",
+		"prefix": "///",
+		"body": [
+			"///////////////////////////////////////////////////////////////////////////////",
+			"// $0 ///",
+			"/////////////////////////////////////////////////////////////////////////////"
+		],
+		"description": "Section header comment."
+	},
+	"HEADER 2 COMMENT JS": {
+		"scope": "javascript",
+		"prefix": "//",
+		"body": [
+			"/**$0**/",
+			"/* $1 */",
+			"/**$0**/"
+		],
+		"description": "Subsection header comment."
+	},
+	"HEADER COMMENT HTML": {
+		"scope": "html",
+		"prefix": "///",
+		"body": [
+			"<!----------------------------------------------------------------------------->",
+			"<!-- $0 -->",
+			"<!--------------------------------------------------------------------------->"
+		],
+		"description": "Section header comment."
 	}
 }
