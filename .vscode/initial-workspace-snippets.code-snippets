@@ -7,50 +7,75 @@
 	// Placeholders with the same ids are connected.
 	// Example (uncommented):
 	"Print to console": {
-                "scope": "javascript,typescript",
-                "prefix": "log",
-                "body": [
-                        "console.log('$1');",
-                        "$2"
-                ],
-                "description": "Log output to console"
-	}
-	
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
 	///////////////////////////////////////////////////////////////////////////////
 	// General file starters                                                   ///
 	/////////////////////////////////////////////////////////////////////////////
-	"File starter": {
-		"scope": "*",
+	/***********/
+	/* DEFAULT */
+	/***********/
+	"Default file starter": {
+		"scope": "",
 		"prefix": "startfile",
 		"body": [
-			"///////////////////////////////////////////////////////////////////////////////",
-                        "///$2 ${1:TITLE} $2//",
-                        "//===========================================================================//",
-                        "//        Author: $3",
-                        "//         Email: $4",
-                        "//       Version: $5",
-                        "//",
-                        "//   Description: $6",
-                        "//",
-                        "// Creation date: ${7:dd}/${8:mm}/${9:yyyy}",
-                        "//=============================== CHANGE LOG ================================//",
-                        "/* [${7:dd}/${8:mm}/${9:yyyy}]        ${10:Author}",
-                        "       ${0:Change description}*/",
-			"///////////////////////////////////////////////////////////////////////////////"
+			"/*//////////////////////////////////////////////////////////////////////////////",
+			"///$2 ${1:TITLE} $2///",
+			"//============================================================================//",
+			"//        Author: $3",
+			"//         Email: $4",
+			"//       Version: $5",
+			"//",
+			"//   Description: $6",
+			"//",
+			"// Creation date: ${7:dd}/${8:mm}/${9:yyyy}",
+			"================================= CHANGE LOG ===================================",
+			"// [${7:dd}/${8:mm}/${9:yyyy}]        ${10:Author}",
+			"       ${0:Change description}//",
+			"//////////////////////////////////////////////////////////////////////////////*/"
 		],
-		"description": "General file header with change log."
+		"description": "Default general file header with change log."
 	},
-	"Change log entry": {
-		"scope": "*",
+	"Default change log entry": {
+		"scope": "",
 		"prefix": "chlog",
 		"body": [
-			"//---------------------------------------------------------------------------//",
-                        "/* [${1:dd}/${2:mm}/${3:yyyy}]        ${4:Author}",
-                        "       ${0:Change description}*/",
+			"--------------------------------------------------------------------------------",
+			"// [${1:dd}/${2:mm}/${3:yyyy}]        ${4:Author}",
+			"       ${0:Change description}//",
 		],
-		"description": "Change log entry for general file header."
+		"description": "Change log entry for default general file header."
 	},
-	
+	/********/
+	/* HTML */
+	/********/
+	"HTML file starter": {
+		"scope": "html, ejs",
+		"prefix": "startfile",
+		"body": [
+			"<!--////////////////////////////////////////////////////////////////////////////",
+			"///$2 ${1:TITLE} $2///",
+			"////////////////////////////////////////////////////////////////////////////////",
+			"//        Author: $3",
+			"//         Email: $4",
+			"//       Version: $5",
+			"//",
+			"//   Description: $6",
+			"//",
+			"// Creation date: ${7:dd}/${8:mm}/${9:yyyy}",
+			"================================== CHANGE LOG ==================================",
+			"// [${7:dd}/${8:mm}/${9:yyyy}]        ${10:Author}",
+			"       ${0:Change description}//",
+			"/////////////////////////////////////////////////////////////////////////////-->"
+		],
+		"description": "HTML general file header with change log."
+	},
 	///////////////////////////////////////////////////////////////////////////////
 	// NODE.JS application starter                                             ///
 	/////////////////////////////////////////////////////////////////////////////
@@ -83,7 +108,6 @@
 		],
 		"description": "Node JS API starter."
 	},
-	
 	///////////////////////////////////////////////////////////////////////////////
 	// EJS snippets                                                            ///
 	/////////////////////////////////////////////////////////////////////////////
@@ -121,31 +145,30 @@
 		"body": "<%= $0 %>",
 		"description": "EJS variation tag snippet"
 	},
-	
 	///////////////////////////////////////////////////////////////////////////////
 	// My comment blocks                                                       ///
 	/////////////////////////////////////////////////////////////////////////////
-	"HEADER 1 COMMENT JS": {
-		"scope": "*",
+	"HEADER 1 COMMENT DEFAULT": {
+		"scope": "",
 		"prefix": "///",
 		"body": [
 			"///////////////////////////////////////////////////////////////////////////////",
 			"// $0 ///",
 			"/////////////////////////////////////////////////////////////////////////////"
 		],
-		"description": "Section header comment."
+		"description": "Default header 1 comment."
 	},
-	"HEADER 2 COMMENT JS": {
-		"scope": "*",
+	"HEADER 2 COMMENT DEFAULT": {
+		"scope": "",
 		"prefix": "//",
 		"body": [
 			"/**$0**/",
 			"/* $1 */",
 			"/**$0**/"
 		],
-		"description": "Subsection header comment."
+		"description": "Default header 2 comment."
 	},
-	"HEADER COMMENT HTML": {
+	"HEADER 1 COMMENT HTML": {
 		"scope": "html",
 		"prefix": "///",
 		"body": [
@@ -153,6 +176,16 @@
 			"<!-- $0 -->",
 			"<!--------------------------------------------------------------------------->"
 		],
-		"description": "Section header comment."
+		"description": "HTML header 1 comment."
+	},
+	"HEADER 1 COMMENT CSS": {
+		"scope": "css",
+		"prefix": "///",
+		"body": [
+			"/*///////////////////////////////////////////////////////////////////////////*/",
+			"/*/ $0 /*/",
+			"/*/////////////////////////////////////////////////////////////////////////*/"
+		],
+		"description": "CSS header 1 comment."
 	}
 }
