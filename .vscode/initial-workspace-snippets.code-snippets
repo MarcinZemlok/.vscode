@@ -126,7 +126,7 @@
 	// My comment blocks                                                       ///
 	/////////////////////////////////////////////////////////////////////////////
 	"HEADER 1 COMMENT JS": {
-		"scope": "javascript",
+		"scope": "*",
 		"prefix": "///",
 		"body": [
 			"///////////////////////////////////////////////////////////////////////////////",
@@ -136,7 +136,7 @@
 		"description": "Section header comment."
 	},
 	"HEADER 2 COMMENT JS": {
-		"scope": "javascript",
+		"scope": "*",
 		"prefix": "//",
 		"body": [
 			"/**$0**/",
