@@ -37,7 +37,7 @@
 			"// Creation date: ${7:dd}/${8:mm}/${9:yyyy}",
 			"================================= CHANGE LOG ===================================",
 			"// [${7:dd}/${8:mm}/${9:yyyy}]        ${10:Author}",
-			"       ${0:Change description}//",
+			"       ${0:Change description}///",
 			"//////////////////////////////////////////////////////////////////////////////*/"
 		],
 		"description": "Default general file header with change log."
@@ -48,7 +48,7 @@
 		"body": [
 			"--------------------------------------------------------------------------------",
 			"// [${1:dd}/${2:mm}/${3:yyyy}]        ${4:Author}",
-			"       ${0:Change description}//",
+			"       ${0:Change description}///",
 		],
 		"description": "Change log entry for default general file header."
 	},
@@ -71,10 +71,34 @@
 			"// Creation date: ${7:dd}/${8:mm}/${9:yyyy}",
 			"================================== CHANGE LOG ==================================",
 			"// [${7:dd}/${8:mm}/${9:yyyy}]        ${10:Author}",
-			"       ${0:Change description}//",
+			"       ${0:Change description}///",
 			"/////////////////////////////////////////////////////////////////////////////-->"
 		],
 		"description": "HTML general file header with change log."
+	},
+	/********/
+	/* Python */
+	/********/
+	"Python file starter": {
+		"scope": "python",
+		"prefix": "startfile",
+		"body": [
+			"'''/////////////////////////////////////////////////////////////////////////////",
+			"///$2 ${1:TITLE} $2///",
+			"////////////////////////////////////////////////////////////////////////////////",
+			"//        Author: $3",
+			"//         Email: $4",
+			"//       Version: $5",
+			"//",
+			"//   Description: $6",
+			"//",
+			"// Creation date: ${7:dd}/${8:mm}/${9:yyyy}",
+			"================================== CHANGE LOG ==================================",
+			"// [${7:dd}/${8:mm}/${9:yyyy}]        ${10:Author}",
+			"       ${0:Change description}///",
+			"/////////////////////////////////////////////////////////////////////////////'''"
+		],
+		"description": "Python general file header with change log."
 	},
 	///////////////////////////////////////////////////////////////////////////////
 	// NODE.JS application starter                                             ///
