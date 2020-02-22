@@ -76,9 +76,9 @@
 		],
 		"description": "HTML general file header with change log."
 	},
-	/********/
+	/**********/
 	/* Python */
-	/********/
+	/**********/
 	"Python file starter": {
 		"scope": "python",
 		"prefix": "startfile",
