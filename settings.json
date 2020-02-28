@@ -61,11 +61,4 @@
 		}
 	],
 	"files.trimTrailingWhitespace": true
-},
-"extensions": {
-	"recommendations": [
-		"psioniq.psi-header",
-		"ms-python.python",
-		"ms-vscode.cpptools"
-	]
 }
