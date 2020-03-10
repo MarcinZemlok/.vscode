@@ -16,49 +16,5 @@
 	"emmet.triggerExpansionOnTab": true,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"terminal.integrated.rendererType": "canvas",
-	"psi-header.config": {
-		"forceToTop": true,
-		"author": "Marcin Żemlok",
-		"authorEmail": "marcinzemlok@gmail.com"
-	},
-	"psi-header.lang-config": [
-		{
-			"language": "*",
-			"begin": "/******************************************************************************/",
-			"end": "/******************************************************************************/\n",
-			"prefix": "/* ",
-			"suffix": "*/",
-			"lineLength": 80
-		},
-		{
-			"language": "html",
-			"begin": "<!-----------------------------------------------------------------------------/",
-			"end": "/------------------------------------------------------------------------------>\n",
-			"prefix": "| ",
-			"suffix": " |",
-			"lineLength": 80
-		}
-	],
-	"psi-header.templates": [
-		{
-			"language": "*",
-			"template": [
-				"File:        <<filename>>",
-				"Create Date: <<filecreated('DD/MM/YYYY')>>",
-				"Version:     XXX",
-				"",
-				"Author:      <<author>>",
-				"E-mail:      <<authoremail>>",
-				"",
-				"HISTORY:",
-				"DATE\t\t\t|AUTHOR\t\t\t\t|COMMENT"
-			],
-			"changeLogCaption": "HISTORY:",
-			"changeLogEntryTemplate": [
-				"<<dateformat('DD/MM/YYYY')>>\t|<<author>>\t\t|XXX"
-			],
-			"changeLogHeaderLineCount": 1
-		}
-	],
 	"files.trimTrailingWhitespace": true
 }
