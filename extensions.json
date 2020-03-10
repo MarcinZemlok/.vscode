@@ -1,0 +1,23 @@
+{
+    "recommendations": [
+        // CPP
+        "ms-vscode.cpptools",
+        // PYTHON
+        "iansan5653.format-python-docstrings",
+        "ms-python.python",
+        // REMOTE RELATED
+        "liximomo.sftp",
+        // ROS related
+        "ajshort.msg",
+        "ajshort.ros",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake",
+        // TCL
+        "bitwisecook.tcl",
+        // WEB DEV
+        "ritwickdey.LiveServer",
+        // WORK HELPERS
+        "Gruntfuggly.todo-tree",
+        "searKing.preview-vscode",
+    ]
+}
