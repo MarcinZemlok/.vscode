@@ -60,5 +60,8 @@
 			"changeLogHeaderLineCount": 1
 		}
 	],
-	"files.trimTrailingWhitespace": true
+	"files.trimTrailingWhitespace": true,
+	"editor.rulers": [
+		80
+	]
 }
