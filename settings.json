@@ -16,5 +16,8 @@
 	"emmet.triggerExpansionOnTab": true,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"terminal.integrated.rendererType": "canvas",
-	"files.trimTrailingWhitespace": true
+	"files.trimTrailingWhitespace": true,
+	"editor.rulers": [
+		80
+	]
 }
