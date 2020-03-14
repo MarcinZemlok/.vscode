@@ -8,16 +8,17 @@
         // REMOTE RELATED
         "liximomo.sftp",
         // ROS related
-        "ajshort.msg",
-        "ajshort.ros",
+        "ms-iot.vscode-ros",
         "ms-vscode.cmake-tools",
         "twxs.cmake",
         // TCL
         "bitwisecook.tcl",
         // WEB DEV
         "ritwickdey.LiveServer",
+        "ecmel.vscode-html-css",
         // WORK HELPERS
         "Gruntfuggly.todo-tree",
         "searKing.preview-vscode",
+        "streetsidesoftware.code-spell-checker",
     ]
 }
