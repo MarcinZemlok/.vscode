@@ -20,5 +20,8 @@
         "Gruntfuggly.todo-tree",
         "searKing.preview-vscode",
         "streetsidesoftware.code-spell-checker",
+        "coenraads.bracket-pair-colorizer-2",
+        "2gua.rainbow-brackets",
+        "pkief.material-icon-theme",
     ]
 }

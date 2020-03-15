@@ -1,23 +1,42 @@
 {
-	"workbench.startupEditor": "newUntitledFile",
-	"workbench.colorTheme": "Monokai Dimmed",
-	"C_Cpp.updateChannel": "Insiders",
-	"liveServer.settings.donotVerifyTags": true,
-	"files.autoSave": "onFocusChange",
-	"editor.formatOnSave": true,
-	"scss.validate": true,
-	"editor.wordWrap": "on",
-	"extensions.ignoreRecommendations": false,
+	////////////////////////////////////////////////////////////////////////////////
+	// WINDOW																    ///
+	//////////////////////////////////////////////////////////////////////////////
 	"window.zoomLevel": 0,
+	////////////////////////////////////////////////////////////////////////////////
+	// WORKBENCH															    ///
+	//////////////////////////////////////////////////////////////////////////////
+	"workbench.colorTheme": "Monokai Dimmed",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "newUntitledFile",
+	////////////////////////////////////////////////////////////////////////////////
+	// EDITOR																    ///
+	//////////////////////////////////////////////////////////////////////////////
+	"editor.formatOnSave": true,
+	"editor.rulers": [
+		80
+	],
+	"editor.wordWrap": "on",
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+	////////////////////////////////////////////////////////////////////////////////
+	// FILES																    ///
+	//////////////////////////////////////////////////////////////////////////////
+	"files.autoSave": "onFocusChange",
+	"files.trimTrailingWhitespace": true,
+	////////////////////////////////////////////////////////////////////////////////
+	// WEBDEW																    ///
+	//////////////////////////////////////////////////////////////////////////////
 	"html.format.endWithNewline": true,
 	"html.format.indentInnerHtml": true,
 	"html.format.maxPreserveNewLines": 1,
-	"emmet.showSuggestionsAsSnippets": true,
-	"emmet.triggerExpansionOnTab": true,
 	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"scss.validate": true,
+	////////////////////////////////////////////////////////////////////////////////
+	// OTHER																    ///
+	//////////////////////////////////////////////////////////////////////////////
+	"C_Cpp.updateChannel": "Insiders",
+	"extensions.ignoreRecommendations": false,
 	"terminal.integrated.rendererType": "canvas",
-	"files.trimTrailingWhitespace": true,
-	"editor.rulers": [
-		80
-	]
 }
