@@ -37,6 +37,10 @@
 	// OTHER																    ///
 	//////////////////////////////////////////////////////////////////////////////
 	"C_Cpp.updateChannel": "Insiders",
+	"cSpell.words": [
+		"Marcin",
+		"Żemlok"
+	],
 	"extensions.ignoreRecommendations": false,
 	"terminal.integrated.rendererType": "canvas",
 }
