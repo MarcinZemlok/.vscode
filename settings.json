@@ -42,5 +42,9 @@
 		"Żemlok"
 	],
 	"extensions.ignoreRecommendations": false,
+	"[python]": {
+		"editor.defaultFormatter": "iansan5653.format-python-docstrings"
+	},
+	"python.linting.enabled": true,
 	"terminal.integrated.rendererType": "canvas",
 }

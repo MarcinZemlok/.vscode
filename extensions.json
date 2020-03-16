@@ -21,7 +21,7 @@
         "searKing.preview-vscode",
         "streetsidesoftware.code-spell-checker",
         "coenraads.bracket-pair-colorizer-2",
-        "2gua.rainbow-brackets",
+        "oderwat.indent-rainbow",
         "pkief.material-icon-theme",
     ]
 }
